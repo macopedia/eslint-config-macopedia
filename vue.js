@@ -6,7 +6,8 @@ module.exports = {
       files: ['**/*.ts', '**/*.tsx', '**/*.vue'],
       extends: [
         'plugin:vue/recommended',
-        '@vue/typescript/recommended'
+        '@vue/typescript/recommended',
+        'plugin:prettierx/vue'
       ],
       parserOptions: {
         parser: '@typescript-eslint/parser'
